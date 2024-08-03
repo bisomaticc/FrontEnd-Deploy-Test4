@@ -8,7 +8,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['@mui/material', '@emotion/react', '@emotion/styled']
+      external: ['@mui/material', '@emotion/react', '@emotion/styled','axios']
     }
   }
 });
